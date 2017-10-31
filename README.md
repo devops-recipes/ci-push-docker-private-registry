@@ -11,7 +11,7 @@ to Quay
 ## Run CI for this repo on Shippable
 * Fork this repo into your local repo
 * Login into the [Continuous Integration Service](https://app.shippable.com)
-* Create a Private Docker Registry [integration](http://docs.shippable.com/ci/push-quay/integrations/imageRegistries/privateRegistry/) on shippable to connect your Private Docker Registry
+* Create a Private Docker Registry [integration](http://docs.shippable.com/platform/integration/dockerRegistryLogin/) on shippable to connect your Private Docker Registry
 * All CI configuration is in `shippable.yml`
 * Follow these [CI Setup Instructions](http://docs.shippable.com/ci/runFirstBuild/) if you have never used Shippable CI Service
 * Update the integrationName in the integration.hub section if you used something other than `quay-integration`
