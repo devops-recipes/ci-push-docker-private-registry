@@ -44,4 +44,4 @@ integrations:
   # adding private docker hub integration so that credentials are available to CI Job
   hub:
     - integrationName: docker-pvt-integration
-      type: "private docker registry"
+      type: dockerRegistryLogin
